@@ -3,9 +3,19 @@
 Sapphire は Discord のモデレーションに特化した機能を備えた BOT です。
 これは、24/7 で稼働しサーバーの監視、管理を行うことができます。
 
+- [Sapphire について](#sapphire-について)
+  - [今回有効化している機能 - モデレーション](#今回有効化している機能---モデレーション)
+    - [スラッシュコマンドでの使用](#スラッシュコマンドでの使用)
+      - [コマンドのオプションについて](#コマンドのオプションについて)
+    - [コンテキストメニューからの使用](#コンテキストメニューからの使用)
+      - [・`ban`、`kick`、`mute`、`warn` コマンドの使用方法](#bankickmutewarn-コマンドの使用方法)
+      - [・`purge until here` コマンドの使用方法](#purge-until-here-コマンドの使用方法)
+      - [・`user information` コマンドの使用方法](#user-information-コマンドの使用方法)
+    - [ユーザーにはどう見えるのか](#ユーザーにはどう見えるのか)
+
 ## 今回有効化している機能 - モデレーション
 
-![alt text](image.png)
+![alt text](/images/image.png)
 
 ### スラッシュコマンドでの使用
 
@@ -18,8 +28,8 @@ Sapphire は Discord のモデレーションに特化した機能を備えた B
 
 <summary>コマンドの一覧画像</summary>
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](/images/image-1.png)
+![alt text](/images/image-2.png)
 
 </details>
 
@@ -63,6 +73,8 @@ Sapphire は Discord のモデレーションに特化した機能を備えた B
 > 例：`/mute @user 1h reason`（1 時間ミュート）
 >
 > 書式は`1m`（1 分）、`1h`（1 時間）、`1d`（1 日）の形式で指定できます。
+> `0`を指定すると、永久に適用されます。
+> `/mute`を除くコマンドではデフォルト(未入力)で`0`が設定されます。
 
 > [!TIP]
 >
@@ -86,7 +98,7 @@ Sapphire は Discord のモデレーションに特化した機能を備えた B
 
 この画像の`Apps`に該当するメニューからコマンドを実行できます。
 
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 
 </details>
 
@@ -104,9 +116,9 @@ Sapphire は Discord のモデレーションに特化した機能を備えた B
 <summary> 使用可能場所について </summary>
 
 - ユーザー：ユーザーの名前を右クリックして表示されるメニューから実行できます。
-  > ![alt text](image-4.png)
+  > ![alt text](/images/image-4.png)
 - メッセージ：メッセージの右クリックメニューから実行できます。
-  > ![alt text](image-5.png)
+  > ![alt text](/images/image-5.png)
 
 </details>
 
@@ -120,7 +132,7 @@ Sapphire は Discord のモデレーションに特化した機能を備えた B
 
 この例は、`warn` コマンドを使用した場合のダイアログです。
 
-![alt text](image-6.png)
+![alt text](/images/image-6.png)
 
 </details>
 
@@ -170,13 +182,13 @@ Sapphire は Discord のモデレーションに特化した機能を備えた B
 > [!TIP]
 > こんな感じだよ！
 >
-> ![alt text](image-7.png)
+> ![alt text](/images/image-7.png)
 
 ### ユーザーにはどう見えるのか
 
 モデレーションコマンドを実行した場合、ユーザーには以下のように表示されます。
 例は`warn`コンテキストコマンドを使用した場合です。[^1]
 
-![alt text](image-8.png)
+![alt text](/images/image-8.png)
 
 [^1]: Special thanks to **広瀬ヌヌ** for the image.
